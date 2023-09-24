@@ -57,6 +57,8 @@ Shell commands `ln` and `mimeopen` are used by default. You may need alternative
 
 The first time you execute `mimeopen` command, it requires you to set the default application, please run the command manually first, complete the settings before using the plugin.
 
+It is recommended to enable this plugin as soon as reading a typst file, or temp pdf files cannot be cleaned completely.
+
 ## Compare to typst-live
 
 [typst-live](https://github.com/ItsEthra/typst-live) is awesome. However, severe flickering occurs when the file is updated. This is the limitation of the browser. In addition, it cannot switch files.
