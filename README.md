@@ -21,6 +21,7 @@ Neovim plugin to preview typst document.
 
 - [typst](https://github.com/typst/typst) (typst compile command)
 - [typst-lsp](https://github.com/nvarner/typst-lsp)
+- [niuiic/core.nvim](https://github.com/niuiic/core.nvim)
 - pdf viewer (recommend okular)
 
 ## Config
