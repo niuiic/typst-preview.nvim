@@ -15,7 +15,7 @@ vim.api.nvim_create_autocmd({ "VimLeave" }, {
 	end,
 })
 
-vim.api.nvim_create_autocmd({ "BufEnter", "BufLeave", "BufWritePost" }, {
+vim.api.nvim_create_autocmd({ "BufEnter" }, {
 	pattern = { "*" },
 	callback = function(args)
 		if static.config.clean_temp_pdf then
