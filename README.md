@@ -8,7 +8,7 @@ Neovim plugin to preview typst document.
 
 2. Call `require("typst-preview").preview()`.
 
-<img src="https://github.com/niuiic/assets/blob/main/typst-preview.nvim/usage.png" />
+<img src="https://github.com/niuiic/assets/blob/main/typst-preview.nvim/usage.gif" />
 
 ## How it works
 
