@@ -10,6 +10,7 @@ local preview = function()
 		vim.notify("Not a typst file", vim.log.levels.ERROR, {
 			title = "Typst Preview",
 		})
+		return
 	end
 
 	utils.redirect_pdf(0)
