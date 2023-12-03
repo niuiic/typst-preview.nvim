@@ -63,4 +63,4 @@ It is recommended to enable this plugin as soon as reading a typst file, or temp
 
 [typst-live](https://github.com/ItsEthra/typst-live) is awesome. However, severe flickering occurs when the file is updated. This is the limitation of the browser. In addition, it cannot switch files.
 
-[chomosuke/typst-preview.nvim](https://github.com/chomosuke/typst-preview.nvim) supports cross jumping between code and preview, but does not support file switching yet. It should be noted that [typst-preview](https://github.com/Enter-tainer/typst-preview) used by this plugin implements the rendering logic itself instead of using official tools. And it works by listening for file changes, meaning that the file must be saved in order to produce changes.
+[chomosuke/typst-preview.nvim](https://github.com/chomosuke/typst-preview.nvim) supports cross jumping between code and preview, but does not support file switching yet. It should be noted that [typst-preview](https://github.com/Enter-tainer/typst-preview) used by this plugin implements the rendering logic itself instead of using official tools.
