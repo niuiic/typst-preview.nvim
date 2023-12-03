@@ -2,8 +2,6 @@
 
 Neovim plugin to preview typst document.
 
-> You may also try `chomosuke/typst-preview.nvim`, which supports cross jumping between code and preview, but does not support file switching yet.
-
 ## Usage
 
 1. Setup `typst-lsp`. (see example [here](https://github.com/niuiic/modern-neovim-configuration/blob/main/lua/lsp/typst_lsp.lua))
@@ -61,6 +59,8 @@ The first time you execute `mimeopen` command, it requires you to set the defaul
 
 It is recommended to enable this plugin as soon as reading a typst file, or temp pdf files cannot be cleaned completely.
 
-## Compare to typst-live
+## Compare to other tools
 
 [typst-live](https://github.com/ItsEthra/typst-live) is awesome. However, severe flickering occurs when the file is updated. This is the limitation of the browser. In addition, it cannot switch files.
+
+[chomosuke/typst-preview.nvim](https://github.com/chomosuke/typst-preview.nvim) supports cross jumping between code and preview, but does not support file switching yet. It should be noted that [typst-preview](https://github.com/Enter-tainer/typst-preview) used by this plugin implements the rendering logic itself instead of using official tools. And it works by listening for file changes, meaning that the file must be saved in order to produce changes.
