@@ -2,6 +2,8 @@
 
 Neovim plugin to preview typst document.
 
+> You may also try `chomosuke/typst-preview.nvim`, which supports cross jumping between code and preview, but does not support file switching yet.
+
 ## Usage
 
 1. Setup `typst-lsp`. (see example [here](https://github.com/niuiic/modern-neovim-configuration/blob/main/lua/lsp/typst_lsp.lua))
