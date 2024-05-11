@@ -2,6 +2,8 @@
 
 Neovim plugin to preview typst document.
 
+[More neovim plugins](https://github.com/niuiic/awesome-neovim-plugins)
+
 ## Usage
 
 1. Setup `typst-lsp`. (see example [here](https://github.com/niuiic/modern-neovim-configuration/blob/main/lua/lsp/typst_lsp.lua))
