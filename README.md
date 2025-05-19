@@ -6,7 +6,20 @@ Neovim plugin to preview typst document.
 
 ## Usage
 
-1. Setup `typst-lsp`. (see example [here](https://github.com/niuiic/modern-neovim-configuration/blob/main/lua/lsp/typst_lsp.lua))
+1. Setup `typst-lsp`. (for example.)
+
+```lua
+local core = require("core")
+
+local M = {
+        settings = {
+                exportPdf = "never",
+        },
+        root_dir = core.file.root_path,
+}
+
+return M
+```
 
 2. Call `require("typst-preview").preview()`.
 
